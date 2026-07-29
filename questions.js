@@ -49,3 +49,4 @@ module.exports = [
     choices: ["A - Le Squelette", "B - L'Enderman", "C - Le Creeper", "D - Le Phantom"],
     answer: "C"
   }
+]
