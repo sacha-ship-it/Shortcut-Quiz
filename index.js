@@ -71,9 +71,9 @@ async function sendQuizToMember(interaction) {
 
     await interaction.followUp({
       embeds: [new EmbedBuilder()
-        .setTitle(`🟫 Question ${i + 1} / ${questions.length}`)
+        .setTitle(`⚡ Question ${i + 1} / ${questions.length}`)
         .setDescription(q.question + '\n\n' + q.choices.join('\n'))
-        .setColor('#8B4513')
+        .setColor('#FF6B00')
         .setFooter({ text: '⏱️ 10 secondes pour répondre !' })],
       components: [row],
       ephemeral: true
@@ -126,7 +126,7 @@ async function sendQuizToMember(interaction) {
     embeds: [new EmbedBuilder()
       .setTitle('🏁 Quiz terminé !')
       .setDescription(`Score de ce quiz : **${quizScore} pts**\n✅ Bonnes réponses : ${correct}\n❌ Mauvaises réponses : ${wrong}\n\nReviens bientôt pour un nouveau quiz !`)
-      .setColor('#8B4513')],
+      .setColor('#FF6B00')],
     ephemeral: true
   })
 }
@@ -135,7 +135,7 @@ async function registerCommands() {
   const commands = [
     new SlashCommandBuilder()
       .setName('quiz')
-      .setDescription('Lance le quiz Minecraft'),
+      .setDescription('Lance le quiz Brawl Stars'),
     new SlashCommandBuilder()
       .setName('classement')
       .setDescription('Affiche le classement général'),
@@ -173,16 +173,16 @@ client.on('interactionCreate', async interaction => {
       const row = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
           .setCustomId('start_quiz')
-          .setLabel('🟫 Commencer le quiz Minecraft')
-          .setStyle(ButtonStyle.Success)
+          .setLabel('⚡ Commencer le quiz Brawl Stars')
+          .setStyle(ButtonStyle.Danger)
       )
 
       await channel.send({
         embeds: [new EmbedBuilder()
-          .setTitle('🟫 QUIZ MINECRAFT - SEMAINE THÉMATIQUE')
-          .setDescription('Le quiz Minecraft est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
-          .setColor('#8B4513')
-          .setFooter({ text: 'Minecraft Week - Shortcut' })],
+          .setTitle('⚡ QUIZ BRAWL STARS — BRAWL STARS WEEK')
+          .setDescription('Le quiz Brawl Stars est disponible !\n\n🔒 Les questions sont privées — personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
+          .setColor('#FF6B00')
+          .setFooter({ text: 'Brawl Stars Week — Shortcut' })],
         components: [row]
       })
 
@@ -219,9 +219,9 @@ client.on('interactionCreate', async interaction => {
 
       await interaction.reply({
         embeds: [new EmbedBuilder()
-          .setTitle('🟫 CLASSEMENT QUIZ MINECRAFT')
+          .setTitle('⚡ CLASSEMENT QUIZ BRAWL STARS')
           .setDescription(classement)
-          .setColor('#8B4513')],
+          .setColor('#FF6B00')],
         ephemeral: false
       })
     }
