@@ -179,10 +179,10 @@ client.on('interactionCreate', async interaction => {
 
       await channel.send({
         embeds: [new EmbedBuilder()
-          .setTitle('⚡ QUIZ BRAWL STARS — BRAWL STARS WEEK')
-          .setDescription('Le quiz Brawl Stars est disponible !\n\n🔒 Les questions sont privées — personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
+          .setTitle('⚡ QUIZ BRAWL STARS - BRAWL STARS WEEK')
+          .setDescription('Le quiz Brawl Stars est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
           .setColor('#FF6B00')
-          .setFooter({ text: 'Brawl Stars Week — Shortcut' })],
+          .setFooter({ text: 'Brawl Stars Week - Shortcut' })],
         components: [row]
       })
 
