@@ -1,52 +1,52 @@
 module.exports = [
   {
-    question: "Quelle entreprise a développé Brawl Stars ?",
-    choices: ["A - Riot Games", "B - Supercell", "C - Epic Games", "D - Activision"],
+    question: "Quel studio a développé Rocket League ?",
+    choices: ["A - Epic Games", "B - Psyonix", "C - Riot Games", "D - Ubisoft"],
     answer: "B"
   },
   {
-    question: "Quel Brawler est connu pour son attaque qui tire plusieurs balles en éventail ?",
-    choices: ["A - Colt", "B - Shelly", "C - Bull", "D - Brock"],
+    question: "Combien de joueurs composent une équipe standard en Rocket League ?",
+    choices: ["A - 2", "B - 3", "C - 4", "D - 5"],
     answer: "B"
   },
   {
-    question: "Quel mode de jeu consiste à collecter et tenir des gemmes pour gagner ?",
-    choices: ["A - Gem Grab", "B - Brawl Ball", "C - Bounty", "D - Heist"],
-    answer: "A"
-  },
-  {
-    question: "Quel Brawler devient invisible avec son Super ?",
-    choices: ["A - Mortis", "B - Leon", "C - Crow", "D - Sandy"],
+    question: "Quel est l'objectif principal de Rocket League ?",
+    choices: ["A - Détruire la voiture adverse", "B - Marquer des buts avec une voiture", "C - Collecter des boost", "D - Finir le circuit le plus vite"],
     answer: "B"
   },
   {
-    question: "Quel Brawler peut poser des mines sur le terrain avec son attaque ?",
-    choices: ["A - Tick", "B - Sprout", "C - Barley", "D - Dynamike"],
-    answer: "A"
-  },
-  {
-    question: "En quelle année Brawl Stars a-t-il été lancé mondialement ?",
-    choices: ["A - 2016", "B - 2017", "C - 2018", "D - 2019"],
+    question: "Comment s'appelle la ressource qui permet de faire des actions spéciales comme voler ?",
+    choices: ["A - Énergie", "B - Nitro", "C - Boost", "D - Turbo"],
     answer: "C"
   },
   {
-    question: "Quel Brawler est un cactus qui tire des graines explosives ?",
-    choices: ["A - Spike", "B - Sprout", "C - Cactus", "D - Frank"],
-    answer: "A"
+    question: "Quelle entreprise a racheté Psyonix en 2019 ?",
+    choices: ["A - Activision", "B - EA Sports", "C - Epic Games", "D - Microsoft"],
+    answer: "C"
   },
   {
-    question: "Quel est le nom de la monnaie premium de Brawl Stars ?",
-    choices: ["A - Coins", "B - Gems", "C - Stars", "D - Tokens"],
+    question: "Combien de temps dure un match standard en Rocket League ?",
+    choices: ["A - 3 minutes", "B - 5 minutes", "C - 7 minutes", "D - 10 minutes"],
     answer: "B"
   },
   {
-    question: "Combien de Brawlers étaient disponibles au lancement mondial de Brawl Stars en 2018 ?",
-    choices: ["A - 15", "B - 17", "C - 22", "D - 27"],
+    question: "Quel rang est le plus élevé dans Rocket League ?",
+    choices: ["A - Diamond", "B - Champion", "C - Grand Champion", "D - Supersonic Legend"],
+    answer: "D"
+  },
+  {
+    question: "En quelle année Rocket League est-il sorti ?",
+    choices: ["A - 2013", "B - 2015", "C - 2017", "D - 2019"],
+    answer: "B"
+  },
+  {
+    question: "Rocket League est devenu gratuit en quelle année ?",
+    choices: ["A - 2018", "B - 2019", "C - 2020", "D - 2021"],
     answer: "C"
   },
   {
-    question: "Dans quel mode de jeu faut-il marquer des buts pour gagner ?",
-    choices: ["A - Gem Grab", "B - Showdown", "C - Brawl Ball", "D - Siege"],
-    answer: "C"
+    question: "Comment s'appelle le mode compétitif principal de Rocket League ?",
+    choices: ["A - Ranked", "B - Competitive", "C - Pro League", "D - Ranked Duel"],
+    answer: "B"
   }
 ]
