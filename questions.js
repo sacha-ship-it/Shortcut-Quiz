@@ -1,52 +1,52 @@
 module.exports = [
   {
-    question: "Quel studio a développé Rocket League ?",
-    choices: ["A - Epic Games", "B - Psyonix", "C - Riot Games", "D - Ubisoft"],
+    question: "Quelle entreprise a développé Fortnite ?",
+    choices: ["A - Activision", "B - Epic Games", "C - Ubisoft", "D - EA Sports"],
     answer: "B"
   },
   {
-    question: "Combien de joueurs composent une équipe standard en Rocket League ?",
-    choices: ["A - 2", "B - 3", "C - 4", "D - 5"],
-    answer: "B"
-  },
-  {
-    question: "Quel est l'objectif principal de Rocket League ?",
-    choices: ["A - Détruire la voiture adverse", "B - Marquer des buts avec une voiture", "C - Collecter des boost", "D - Finir le circuit le plus vite"],
-    answer: "B"
-  },
-  {
-    question: "Comment s'appelle la ressource qui permet de faire des actions spéciales comme voler ?",
-    choices: ["A - Énergie", "B - Nitro", "C - Boost", "D - Turbo"],
+    question: "En quelle année Fortnite Battle Royale est-il sorti ?",
+    choices: ["A - 2015", "B - 2016", "C - 2017", "D - 2018"],
     answer: "C"
   },
   {
-    question: "Quelle entreprise a racheté Psyonix en 2019 ?",
-    choices: ["A - Activision", "B - EA Sports", "C - Epic Games", "D - Microsoft"],
+    question: "Combien de joueurs au maximum participent à une partie Battle Royale standard ?",
+    choices: ["A - 50", "B - 75", "C - 100", "D - 150"],
     answer: "C"
   },
   {
-    question: "Combien de temps dure un match standard en Rocket League ?",
-    choices: ["A - 3 minutes", "B - 5 minutes", "C - 7 minutes", "D - 10 minutes"],
-    answer: "B"
+    question: "Comment s'appelle la zone qui rétrécit et force les joueurs à se rapprocher ?",
+    choices: ["A - La tempête", "B - Le cercle", "C - La zone", "D - Le brouillard"],
+    answer: "A"
   },
   {
-    question: "Quel rang est le plus élevé dans Rocket League ?",
-    choices: ["A - Diamond", "B - Champion", "C - Grand Champion", "D - Supersonic Legend"],
+    question: "Quel matériau n'existe pas dans Fortnite ?",
+    choices: ["A - Bois", "B - Pierre", "C - Métal", "D - Verre"],
     answer: "D"
   },
   {
-    question: "En quelle année Rocket League est-il sorti ?",
-    choices: ["A - 2013", "B - 2015", "C - 2017", "D - 2019"],
-    answer: "B"
-  },
-  {
-    question: "Rocket League est devenu gratuit en quelle année ?",
-    choices: ["A - 2018", "B - 2019", "C - 2020", "D - 2021"],
+    question: "Qu'est-ce que le Victory Royale ?",
+    choices: ["A - Un skin rare", "B - Un mode de jeu", "C - Le message affiché quand tu gagnes", "D - Une danse"],
     answer: "C"
   },
   {
-    question: "Comment s'appelle le mode compétitif principal de Rocket League ?",
-    choices: ["A - Ranked", "B - Competitive", "C - Pro League", "D - Ranked Duel"],
+    question: "Quel est le nom du bus qui largue les joueurs en début de partie ?",
+    choices: ["A - Le bus de combat", "B - Le bus volant", "C - Le bus de la victoire", "D - Le bus royal"],
+    answer: "A"
+  },
+  {
+    question: "Qu'est-ce qu'un drop dans Fortnite ?",
+    choices: ["A - Une danse", "B - L'endroit où on atterrit en début de partie", "C - Un objet rare", "D - Une arme spéciale"],
     answer: "B"
+  },
+  {
+    question: "Combien de constructions différentes peut-on faire dans Fortnite ?",
+    choices: ["A - 2", "B - 3", "C - 4", "D - 5"],
+    answer: "C"
+  },
+  {
+    question: "Quel mode de jeu a été ajouté en 2022 permettant de jouer sans construction ?",
+    choices: ["A - Zero Build", "B - No Build", "C - Build Off", "D - Classic Mode"],
+    answer: "A"
   }
 ]
