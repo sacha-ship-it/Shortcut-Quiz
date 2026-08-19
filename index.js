@@ -179,10 +179,10 @@ client.on('interactionCreate', async interaction => {
 
       await channel.send({
         embeds: [new EmbedBuilder()
-          .setTitle('🚀 QUIZ ROCKET LEAGUE - ROCKET LEAGUE WEEK')
-          .setDescription('Le quiz Rocket League est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
+          .setTitle('🚀 QUIZ Fortnite - Fortnite WEEK')
+          .setDescription('Le quiz Fortnite est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
           .setColor('#1E90FF')
-          .setFooter({ text: 'Rocket League Week - Shortcut' })],
+          .setFooter({ text: 'Fortnite Week - Shortcut' })],
         components: [row]
       })
 
