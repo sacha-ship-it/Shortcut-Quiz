@@ -1,52 +1,52 @@
 module.exports = [
   {
-    question: "Quelle entreprise a développé Fortnite ?",
-    choices: ["A - Activision", "B - Epic Games", "C - Ubisoft", "D - EA Sports"],
+    question: "Quelle entreprise a développé Valorant ?",
+    choices: ["A - Activision", "B - Epic Games", "C - Riot Games", "D - Ubisoft"],
+    answer: "C"
+  },
+  {
+    question: "En quelle année Valorant est-il sorti officiellement ?",
+    choices: ["A - 2018", "B - 2019", "C - 2020", "D - 2021"],
+    answer: "C"
+  },
+  {
+    question: "Combien d'agents étaient disponibles au lancement de Valorant ?",
+    choices: ["A - 8", "B - 10", "C - 11", "D - 12"],
+    answer: "C"
+  },
+  {
+    question: "Quel est l'objectif principal du mode compétitif de Valorant ?",
+    choices: ["A - Éliminer tous les ennemis", "B - Poser ou désamorcer la Spike", "C - Capturer des zones", "D - Protéger un VIP"],
     answer: "B"
   },
   {
-    question: "En quelle année Fortnite Battle Royale est-il sorti ?",
-    choices: ["A - 2015", "B - 2016", "C - 2017", "D - 2018"],
-    answer: "C"
-  },
-  {
-    question: "Combien de joueurs au maximum participent à une partie Battle Royale standard ?",
-    choices: ["A - 50", "B - 75", "C - 100", "D - 150"],
-    answer: "C"
-  },
-  {
-    question: "Comment s'appelle la zone qui rétrécit et force les joueurs à se rapprocher ?",
-    choices: ["A - La tempête", "B - Le cercle", "C - La zone", "D - Le brouillard"],
-    answer: "A"
-  },
-  {
-    question: "Quel matériau n'existe pas dans Fortnite ?",
-    choices: ["A - Bois", "B - Pierre", "C - Métal", "D - Verre"],
-    answer: "D"
-  },
-  {
-    question: "Qu'est-ce que le Victory Royale ?",
-    choices: ["A - Un skin rare", "B - Un mode de jeu", "C - Le message affiché quand tu gagnes", "D - Une danse"],
-    answer: "C"
-  },
-  {
-    question: "Quel est le nom du bus qui largue les joueurs en début de partie ?",
-    choices: ["A - Le bus de combat", "B - Le bus volant", "C - Le bus de la victoire", "D - Le bus royal"],
-    answer: "A"
-  },
-  {
-    question: "Qu'est-ce qu'un drop dans Fortnite ?",
-    choices: ["A - Une danse", "B - L'endroit où on atterrit en début de partie", "C - Un objet rare", "D - Une arme spéciale"],
+    question: "Combien de joueurs composent une équipe dans Valorant ?",
+    choices: ["A - 4", "B - 5", "C - 6", "D - 3"],
     answer: "B"
   },
   {
-    question: "Combien de constructions différentes peut-on faire dans Fortnite ?",
-    choices: ["A - 2", "B - 3", "C - 4", "D - 5"],
+    question: "Quel rang est le plus élevé dans Valorant ?",
+    choices: ["A - Diamond", "B - Immortal", "C - Radiant", "D - Ascendant"],
     answer: "C"
   },
   {
-    question: "Quel mode de jeu a été ajouté en 2022 permettant de jouer sans construction ?",
-    choices: ["A - Zero Build", "B - No Build", "C - Build Off", "D - Classic Mode"],
-    answer: "A"
+    question: "Comment s'appelle la bombe dans Valorant ?",
+    choices: ["A - Bombe", "B - Device", "C - Spike", "D - Charge"],
+    answer: "C"
+  },
+  {
+    question: "Quel agent peut se téléporter dans Valorant ?",
+    choices: ["A - Jett", "B - Yoru", "C - Reyna", "D - Phoenix"],
+    answer: "B"
+  },
+  {
+    question: "Combien de rounds faut-il gagner pour remporter une partie standard ?",
+    choices: ["A - 10", "B - 12", "C - 13", "D - 16"],
+    answer: "C"
+  },
+  {
+    question: "Quel type de personnage est spécialisé dans la guérison des alliés ?",
+    choices: ["A - Duelliste", "B - Contrôleur", "C - Sentinelle", "D - Initiateur"],
+    answer: "C"
   }
 ]
