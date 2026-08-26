@@ -71,9 +71,9 @@ async function sendQuizToMember(interaction) {
 
     await interaction.followUp({
       embeds: [new EmbedBuilder()
-        .setTitle(`🚀 Question ${i + 1} / ${questions.length}`)
+        .setTitle(`🎯 Question ${i + 1} / ${questions.length}`)
         .setDescription(q.question + '\n\n' + q.choices.join('\n'))
-        .setColor('#1E90FF')
+        .setColor('#FF4655')
         .setFooter({ text: '⏱️ 10 secondes pour répondre !' })],
       components: [row],
       ephemeral: true
@@ -126,7 +126,7 @@ async function sendQuizToMember(interaction) {
     embeds: [new EmbedBuilder()
       .setTitle('🏁 Quiz terminé !')
       .setDescription(`Score de ce quiz : **${quizScore} pts**\n✅ Bonnes réponses : ${correct}\n❌ Mauvaises réponses : ${wrong}\n\nReviens bientôt pour un nouveau quiz !`)
-      .setColor('#1E90FF')],
+      .setColor('#FF4655')],
     ephemeral: true
   })
 }
@@ -135,7 +135,7 @@ async function registerCommands() {
   const commands = [
     new SlashCommandBuilder()
       .setName('quiz')
-      .setDescription('Lance le quiz Rocket League'),
+      .setDescription('Lance le quiz Valorant'),
     new SlashCommandBuilder()
       .setName('classement')
       .setDescription('Affiche le classement général'),
@@ -173,16 +173,16 @@ client.on('interactionCreate', async interaction => {
       const row = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
           .setCustomId('start_quiz')
-          .setLabel('🚀 Commencer le quiz Rocket League')
-          .setStyle(ButtonStyle.Primary)
+          .setLabel('🎯 Commencer le quiz Valorant')
+          .setStyle(ButtonStyle.Danger)
       )
 
       await channel.send({
         embeds: [new EmbedBuilder()
-          .setTitle('🚀 QUIZ Fortnite - Fortnite WEEK')
-          .setDescription('Le quiz Fortnite est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
-          .setColor('#1E90FF')
-          .setFooter({ text: 'Fortnite Week - Shortcut' })],
+          .setTitle('🎯 QUIZ VALORANT - VALORANT WEEK')
+          .setDescription('Le quiz Valorant est disponible !\n\n🔒 Les questions sont privées, personne ne voit tes réponses.\n\nClique sur le bouton ci-dessous pour commencer 👇\n\n⏱️ Tu as 10 secondes par question.')
+          .setColor('#FF4655')
+          .setFooter({ text: 'Valorant Week - Shortcut' })],
         components: [row]
       })
 
@@ -199,7 +199,7 @@ client.on('interactionCreate', async interaction => {
         }
 
         hasParticipated.add(userId)
-        await i.reply({ content: '🚀 Le quiz commence ! Les questions arrivent...', ephemeral: true })
+        await i.reply({ content: '🎯 Le quiz commence ! Les questions arrivent...', ephemeral: true })
         sendQuizToMember(i)
       })
     }
@@ -219,9 +219,9 @@ client.on('interactionCreate', async interaction => {
 
       await interaction.reply({
         embeds: [new EmbedBuilder()
-          .setTitle('🚀 CLASSEMENT QUIZ ROCKET LEAGUE')
+          .setTitle('🎯 CLASSEMENT QUIZ VALORANT')
           .setDescription(classement)
-          .setColor('#1E90FF')],
+          .setColor('#FF4655')],
         ephemeral: false
       })
     }
